@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dct-graph/static/css/main.f855e6bc.css",
+    "main.js": "/dct-graph/static/js/main.a8291baf.js",
+    "static/js/453.2abfee65.chunk.js": "/dct-graph/static/js/453.2abfee65.chunk.js",
+    "index.html": "/dct-graph/index.html",
+    "main.f855e6bc.css.map": "/dct-graph/static/css/main.f855e6bc.css.map",
+    "main.a8291baf.js.map": "/dct-graph/static/js/main.a8291baf.js.map",
+    "453.2abfee65.chunk.js.map": "/dct-graph/static/js/453.2abfee65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.a8291baf.js"
+  ]
+}
