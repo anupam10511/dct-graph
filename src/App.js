@@ -1,11 +1,10 @@
 import "./App.css";
-import "./components/graph";
-import Graph from "./components/graph";
+import CityMapView from "./components/cityMapView";
 
 function App() {
   return (
     <div className="App">
-      <Graph></Graph>
+      <CityMapView></CityMapView>
     </div>
   );
 }

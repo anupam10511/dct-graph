@@ -1,20 +1,27 @@
 export const cities = [
-  { name: "Mumbai", region: "West" },
-  { name: "Ahmedabad", region: "West" },
-  { name: "Pune", region: "West" },
-  { name: "Nagpur", region: "West" },
-  { name: "Kolkata", region: "East" },
-  { name: "Bhubaneswar", region: "East" },
-  { name: "Darjeeling", region: "East" },
-  { name: "Ranchi", region: "East" },
-  { name: "Silliguri", region: "East" },
-  { name: "Chennai", region: "South" },
-  { name: "Bengaluru", region: "South" },
-  { name: "Hyderabad", region: "South" },
-  { name: "Delhi", region: "North" },
-  { name: "Lucknow", region: "North" },
-  { name: "Jaipur", region: "North" },
-  { name: "Gurugram", region: "North" },
+  { id: "Mumbai", latitude: 19.076, longitude: 72.8777, region: "West" },
+  { id: "Delhi", latitude: 28.7041, longitude: 77.1025, region: "North" },
+  { id: "Bangalore", latitude: 12.9716, longitude: 77.5946, region: "South" },
+  { id: "Kolkata", latitude: 22.5726, longitude: 88.3639, region: "East" },
+  { id: "Chennai", latitude: 13.0827, longitude: 80.2707, region: "South" },
+  { id: "Hyderabad", latitude: 17.385, longitude: 78.4867, region: "South" },
+  { id: "Pune", latitude: 18.5204, longitude: 73.8567, region: "West" },
+  { id: "Ahmedabad", latitude: 23.0225, longitude: 72.5714, region: "West" },
+  { id: "Jaipur", latitude: 26.9124, longitude: 75.7873, region: "North" },
+  { id: "Lucknow", latitude: 26.8467, longitude: 80.9462, region: "North" },
+];
+
+export const edges = [
+  { from: "Mumbai", to: "Delhi" },
+  { from: "Delhi", to: "Bangalore" },
+  { from: "Kolkata", to: "Chennai" },
+  { from: "Hyderabad", to: "Bangalore" },
+  { from: "Pune", to: "Ahmedabad" },
+  { from: "Jaipur", to: "Lucknow" },
+  { from: "Mumbai", to: "Pune" },
+  { from: "Delhi", to: "Lucknow" },
+  { from: "Pune", to: "Lucknow" },
+  { from: "Bangalore", to: "Lucknow" },
 ];
 
 export const regions = ["North", "South", "East", "West"];
